@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    padding: auto;
+    margin: auto;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    background-image: url("//put your background image link here");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 2rem;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.2);
+    box-shadow: 0 0 6px rgba(128, 128, 128, 0.2);
+    padding: 1em
+    
+}
+.logothing{
+    font-size: 3rem;
+    font-weight: 300;
+    color: rgb(24, 175, 234) ;
+    cursor: pointer;
+
+}
+ul{
+
+    list-style: none;
+}
+ul li{
+    display: inline;
+    margin: 0 2em;
+    font-size: 1.2em;
+
+}
+a{
+    color:black;
+    cursor: pointer;
+}
+a:hover{
+    color:rgb(24, 175, 234) ;
+}
+select{
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+}
+select:hover{
+    color:rgb(24, 175, 234) ;
+}
+.getstarted{
+    background-color:rgb(24, 175, 234);
+    border: none;
+    width: 10rem;
+    height: 3.3rem;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+button:hover{
+    color:white;
+    background-color: black; 
+}
+.maincont{
+    position: relative;
+    width: 50%;
+    margin-top: 5rem;
+    justify-content: center;
+    align-content: center;
+}
+.boldthing{
+    font-size: 6rem;
+    text-align: center;
+    line-height: 5rem;
+    font-weight: 800;
+    color: rgb(24, 175, 234);
+    margin-bottom: 2rem;
+}
+.gencont{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.second{
+    position: absolute;
+    left: 45%;
+    margin-top: 2rem;
+}
+.boxes{
+    display: flex;
+    position: relative;
+    margin-top: 15rem;
+}
+.box{
+    width: 18%;
+    border: none;
+    box-shadow: 0 0 6px rgba(128, 128, 128, 0.5);
+    padding: 2em;
+    padding-top: 3rem;
+}
+.titleofbox{
+color:rgb(24, 175, 234) ;
+font-size: 1.2em;
+cursor: pointer;
+}
+.icon{
+    height: 4rem;
+}
+i{
+    cursor: pointer;
+}
+    
